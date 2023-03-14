@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyPersonalWebsite.Data\MyPersonalWebsite.Data.csproj" />
+    <ProjectReference Include="..\MyPersonalWebsite.Models\MyPersonalWebsite.Models.csproj" />
+    <ProjectReference Include="..\MyPersonalWebsite.Repository\MyPersonalWebsite.Repository.csproj" />
+    <ProjectReference Include="..\MyPersonalWebsite.Shared\MyPersonalWebsite.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
